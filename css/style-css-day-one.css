@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.main-title {
+    text-align: center;
+    margin: 30px 0px 50px;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+    position: relative;
+}
+
+.main-title::before {
+    content: "";
+    position: absolute;
+    width: 155px;
+    height: 4px;
+    background-color: rgb(97, 97, 97);
+    top: 45px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+
+.Task {
+    background-color: #eee;
+    width: 90%;
+    border-left: 8px solid rgb(17, 0, 255);
+    padding: 15px;
+}
+
+.task-title {
+    padding: 15px 0px;
+    font-weight: bold;
+}
+
+p {
+    padding: 10px 0px;
+    color: rgb(38, 38, 38);
+}
+
+hr {
+    width: 150px;
+    border-width: 10px 0px 0px 0px;
+    border-color: rgb(63, 63, 63);
+    border-style: dotted;
+    margin: 40px auto;
+}
+
+
+
+/* Tasks and Challenge */
+.background-challenge{
+    margin: 40px;
+}
+.div-one {
+    width: 70%;
+    padding: 20px;
+    background-color: rgba(17, 0, 255, 0.8);
+    color: white;
+    margin: 10px auto;
+}
+
+.div-two {
+    width: 70%;
+    padding: 20px;
+    background-color: rgba(17, 0, 255, 0.5);
+    color: black;
+    margin: 10px auto;
+
+}
+
+.div-three {
+    width: 70%;
+    padding: 20px;
+    background-color: rgba(17, 0, 255, 0.3);
+    color: black;
+    margin: 10px auto;
+
+}
+
+.btn-div {
+    text-align: center;
+    margin: 40px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: rgb(62, 62, 62);
+    color: white;
+    text-decoration: none;
+}
+
+/* code challenge 3 and 4  */
+
+.border-container {
+    margin: 30px 0px;
+    text-align: center;
+     
+}
+.border-box-1 {
+    padding: 40px 60px;
+    background-color:#eee;
+    border: 5px solid red;
+    display: inline-block;
+    margin: 15px;
+}
+
+.border-box-2 {
+    padding: 40px 60px;
+    background-color:#eee;
+    border: 5px dotted red;
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.border-box-3 {
+    padding: 40px 60px;
+    background-color:#eee;
+    border: 5px double red;
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.hello-world-div-border{
+    width: 200px;
+    margin: 30px auto;
+    padding: 15px 20px;
+    background-color: #222;
+    color: white;
+    border-width:   0px 0px 0px 8px;
+    border-color: red;
+    border-style: solid;
+}
+
+.Dotted-hr {
+    margin: 30px;
+}
+
+.car-image {
+   display: block;
+   margin: 25px auto;
+   width: 220px
+}
+/* .. code ..  */
+.code {
+    background-color: #222;
+    overflow: auto;
+}
+code {
+    line-height: 1.5;
+    color: white;
+}
+
+.dimentions-container {
+    padding-bottom: 50px;
+}
+/* code challenge 7  */
+
+
+.box-1-dim{
+    max-width: 600px;
+    min-width: 150px;
+    background-color: gray;
+    padding: 5px;
+    margin: 30px  auto;
+    font-size: 12px;
+}
+.box-2-dim{
+    max-width: 600px;
+    min-width: 150px;
+    background-color: gray;
+    padding: 5px;
+    margin: 30px  auto;
+    font-size: 12px;
+}
+.box-3-dim{
+    max-width: 600px;
+    min-width: 150px;
+    max-height: 40px;
+    background-color: gray;
+    padding: 5px;
+    margin: 30px  auto;
+    font-size: 12px;
+}
+
+
+/* Text formatting */
+
+.text-formatting-container {
+    text-align: center;
+    margin: 20px auto;
+    line-height: 1.5;
+    background-color: white;
+    max-width: 600px;
+}
+
+.color-change {
+    color: Red;
+}
+.text-shadow {
+    text-shadow:2px 2px 5px #a300ff;
+}
+.text-align-left{
+    text-align: left;
+    margin-left: 10px;
+}
+.text-align-right {
+    text-align: right;
+    margin-right: 10px;
+}
+.rtl-text {
+    direction: rtl;
+}
+.decorated-text{
+    text-decoration: line-through;
+}
+.another-decorated-text{
+    text-decoration: underline;
+}
+
+.uppercase-text {
+    text-transform: uppercase;
+}
+.letter-spacing {
+    letter-spacing: 5px;
+}
+.word-spacing {
+    word-spacing: 5px;
+}
+.ellipsis {
+    margin:auto;
+    background-color: #a300ff;
+    color: white;
+    padding: 10px;
+    width: 140px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.change-font-style {
+    font-family: "Madimi One", sans-serif;
+}
+
+/* end of day one of css code  */

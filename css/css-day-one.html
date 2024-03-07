@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style-css-day-one.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <title>CSS Day - 1</title>
+</head>
+
+<body>
+    <h1 class="main-title">CSS Day 1: Exploring Styles</h1>
+    <div class="container">
+        <div class="Task">
+            <h3 class="task-title">Create The Project</h3>
+            <p>- Develop an HTML and CSS project and establish a connection between the HTML file and an external CSS
+                page.</p>
+            <p>- Test it with any element to make sure that it is working</p>
+        </div>
+
+
+
+        <div class="Task">
+            <h3 class="task-title">Methods for Writing CSS Code</h3>
+            <p>- There are three approaches to writing CSS code. Experiment with coding each to observe their respective
+                priorities.</p>
+            <p>- Write a comment explaining the purpose of each method. </p>
+        </div>
+
+
+
+        <div class="Task">
+            <h3 class="task-title">CSS Selectors</h3>
+            <p>- There are various CSS selectors to select HTML tags. Provide code examples for three different
+                approaches (ID, Class, Tag Name). </p>
+            <p>* When naming CSS classes, follow best practices for naming conventions ( Avoid generic
+                names , Avoid camel case, use Hyphen-separated )</p>
+        </div>
+    </div>
+
+    <hr>
+
+
+    <div class="container">
+        <div class="Task">
+            <h3 class="task-title">Background - padding - margin</h3>
+            <p>- Code Challenge 1 : </p>
+            <div class="background-challenge">
+                <div class="div-one">This is the first Box</div>
+                <div class="div-two">This is the second Box</div>
+                <div class="div-three">This is the third Box</div>
+            </div>
+
+
+            <p>- Code Challenge 2 : </p>
+            <div class="btn-div">
+                <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrmqF4yCu9KFhNLFgH0V3lyuqEUt1ItIYry_SDaV4xgw&s"
+                    class="btn">Go To URL</a>
+            </div>
+
+
+
+        </div>
+
+        <!-- still have a task about Background-size and Background-image ... lesson 6 -->
+        <div class="Task">
+            <h3 class="task-title">Background-size and attatchement</h3>
+            <p>anytime</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="Task">
+            <h3 class="task-title">Border and Display</h3>
+            <p>- Code Challenge 3 : </p>
+            <div class="border-container">
+                <div class="border-box-1">Box-1</div>
+                <div class="border-box-2">Box-2</div>
+                <div class="border-box-3">Box-3</div>
+            </div>
+
+            <p>- Code Challenge 4 : </p>
+            <div class="Dotted-hr">
+                <hr>
+            </div>
+
+            <p>- Code Challenge 5 : </p>
+            <div class="hello-world-div-border">
+                Hello, World
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <hr>
+
+    <div class="container">
+        <div class="Task">
+            <h3 class="task-title">Nesting - Dimensions - OverFlow</h3>
+            <p>- Code Challenge 6 : </p>
+            <p>- Copy the code below and use css nested selectors to make it look like the image provided.</p>
+            <div class="code">
+                <pre>
+      <code>
+        &lt;section class="container"&gt;
+          &lt;header class="header"&gt;Header Content&lt;/header&gt;
+          &lt;div class="content"&gt;
+            &lt;p class="text"&gt;Lorem ipsum dolor sit amet.&lt;/p&gt;
+            &lt;div class="image"&gt;&lt;img src="image.jpg" alt="Sample Image"&gt;&lt;/div&gt;
+          &lt;/div&gt;
+          &lt;footer class="footer"&gt;Footer Content&lt;/footer&gt;
+        &lt;/section&gt;
+      </code>
+    </pre>
+            </div>
+            <img class="car-image" src="./assets/nested-selectos.png"  alt="">
+       
+
+
+        <p>- Code Challenge 7 : </p>
+        <p>- Create three block-style boxes with widths ranging between 150px and 600px. Ensure they are all set to display as blocks. In the last box, if the text is too long and goes beyond the box, hide the extra text.</p>
+        <div class="dimentions-container">
+            <div class="box-1-dim">
+                <h3>Lorem dolor </h3>
+            </div>
+            <div class="box-2-dim">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            </div>
+            <div class="box-3-dim">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis necessitatibus dolore ratione veniam
+                    tempore sectetu  dolor sit amet, consectetur adipisicing elit. Veritatis necessitatibus dolore ratione veniam
+                    tempore sectetu</h3>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+<hr>
+
+
+
+<div class="container">
+    <div class="Task">
+        <h3 class="task-title">Text Formatting</h3>
+        <p>- Code Challenge 8 : </p>
+        <p>- Make as the following HTML and CSS content</p>
+        <div class="text-formatting-container">
+            <p class="color-change">Change the color of the text</p>
+            <p class="text-shadow">Make a shadow for the text</p>
+            <p class="text-align-left">left side</p>
+            <p class="text-align-center">Center</p>
+            <p class="text-align-right">Right side</p>
+            <p class="ltr-text">English Text (LTR)</p>
+            <p class="rtl-text">نص عربي. (RTL)</p>
+            <p class="decorated-text">200 $</p>
+            <p class="another-decorated-text">Another decorated Text</p>
+            <p class="uppercase-text">all letters are uppercase from the CSS code</p>
+            <p class="letter-spacing">big space between letters</p>
+            <p class="word-spacing">big space between words</p>
+            <p class="ellipsis "> This text has exceed the width and to continue reading</p>
+            <p class="change-font-style">The font family name is Madimi One from Google Fonts</p>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+</html>
